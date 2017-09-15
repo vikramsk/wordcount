@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="wordcount:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/wordcount_jar</output-path>
+    <root id="archive" name="wordcount.jar">
+      <element id="module-output" name="wordcount" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/hadoop-common-2.7.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/libs/hadoop-mapreduce-client-core-2.7.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/out/artifacts/wordcount_jar/wordcount.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
